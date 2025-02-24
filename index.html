@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITC505 Lab 3</title>
+
+    <!-- Link to Google Fonts Lobster font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Apply Lobster font to the body */
+        body {
+            font-family: 'Lobster', cursive;
+            background: linear-gradient(to bottom right, #ffefba, #ffffff); /* Light pastel gradient */
+            margin: 0;
+            padding: 0;
+            color: #333333; /* Dark gray text for readability */
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #ffffff; /* Clean white background for the content */
+            border-radius: 10px; /* Soft rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            color: #ff7043; /* Soft coral color for the heading */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555555; /* Soft gray for paragraphs */
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #9e9e9e; /* Light gray color for footer */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>The Amazing World of Animals</h1>
+        <p>
+            Animals are incredible creatures that inhabit our planet in a variety of ecosystems. From the vast oceans to the deep forests, animals play a crucial role in maintaining balance in nature. Whether it's the tiny, busy ants or the majestic elephants, every species has its place.
+        </p>
+        <p>
+            Animals exhibit an astounding array of behaviors. Some, like migratory birds, travel across continents, while others, like the Arctic fox, have evolved unique adaptations to survive in the harshest conditions. From the flying abilities of bats to the deep-diving skills of whales, animals continually amaze us with their ingenuity and resilience.
+        </p>
+        <p>
+            Did you know that elephants are capable of remembering other elephants and even humans for many years? Or that certain species of birds can communicate using a complex system of sounds and gestures? The animal kingdom is full of mysteries that humans are still unraveling today.
+        </p>
+        <p>
+            Additionally, animals serve as a vital part of our ecosystem. Bees, for instance, are essential for pollination, and without them, many of the crops we rely on would not thrive. On the other hand, predators like lions help maintain the health of other populations by keeping the balance in check. Nature's design is truly brilliant in how everything is connected.
+        </p>
+        <p>
+            As we continue to learn more about animals, it's essential to focus on preserving their habitats and protecting endangered species. Human activities have threatened the survival of many animals, but through conservation efforts, we can help ensure that future generations will also witness the wonders of the animal kingdom.
+        </p>
+        
+        <!-- Footer with script to display the last updated time -->
+        <footer>
+            <p>Last updated: 
+                <span id="lastModified"></span>
+            </p>
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        var x = document.lastModified;
+        document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
